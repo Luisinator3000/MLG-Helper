@@ -1,0 +1,10 @@
+{
+  "uuid": "%uuid%",
+  "name": "MLGhelper",
+  "mainClass": "net.addon.mlghelper.MLGhelper",
+  "description": "Zeigt dir an ob der MLG auf den Block den du schaust, m\u00f6glich ist.",
+  "version": 1,
+  "author": "Luisinator3000 & ReloadIt",
+  "category": 2,
+  "icon": "https://i.imgur.com/vQHkGLS.png"
+}
