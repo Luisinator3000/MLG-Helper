@@ -37,14 +37,6 @@ public class MLGhelper extends LabyModAddon {
         System.out.println("[MLGhelper] Enabled succesfully!");
         this.getApi().registerForgeListener(this);
 
-        this.getApi().getEventManager().registerOnJoin(new Consumer<ServerData>() {
-            @Override
-            public void accept(ServerData serverData) {
-                if(enabled) {
-                    LabyMod.getInstance().displayMessageInChat("§6[MLGhelper] §7Du bist dem Server " + serverData.getIp() + " gejoint!");
-                }
-            }
-        });
         this.getApi().registerModule(new MLGmodule());
 
     }
